@@ -20,6 +20,7 @@ const stats = [
 
 const App = () => {
   const [counters, setCounters] = useState(stats.map(() => 0));
+  console.log(counters);
 
   useEffect(() => {
     const duration = 3000;
